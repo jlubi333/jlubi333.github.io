@@ -1,0 +1,289 @@
+/* - Main - */
+
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+html
+{
+	height: 100%;	
+}
+
+body
+{
+	height: 100%;
+	background-color: #111111;
+	background-image: url("bg.png");
+	color: #CCCCCC;
+	font-weight: 300;
+}
+
+#nonfooter_wrapper
+{
+	height: 100%;
+	min-height: 100%;
+	margin-bottom: -40px;
+	overflow: hidden;
+}
+
+/* - Link Override - */
+
+a
+{
+	color: inherit;
+}
+
+/* - Header - */
+
+header
+{
+	box-shadow: -1px -6px 10px 1px #000000 inset;	
+}
+
+h1
+{
+	color: #FFFFFF;
+	font-size: 3em;
+	font-weight: 400;
+	padding: 30px;
+}
+
+header hr
+{
+	height: 5px;
+	border: 0;
+}
+
+header hr:nth-of-type(1)
+{
+	background-color: #FF3300;
+	color: #FF3300;
+}
+
+header hr:nth-of-type(2)
+{
+	background-color: #FF8000;
+	color: #FF3300;
+}
+
+header hr:nth-of-type(3)
+{
+	background-color: #00C6FF;
+	color: #FF3300;
+}
+
+header hr:nth-of-type(4)
+{
+	background-color: #AAF200;
+	color: #FF3300;
+}
+
+/* - Nav - */
+
+nav
+{
+	float: left;
+	width: 150px;
+	height: 100%;
+	overflow: hidden;
+	margin-right: 20px;
+	box-shadow: 0 0 10px 0 #000000 inset;
+}
+
+nav ul
+{
+	height: 100%;
+	list-style-type: none;
+}
+
+nav ul li
+{
+	border-left: 3px solid #222222;
+	-webkit-transition: color 0.5s, border-left-color 0.5s;
+	-moz-transition: color 0.5s, border-left-color 0.5s;
+}
+
+nav ul li:hover
+{
+	color: #FFFFFF;
+}
+
+nav ul li:nth-child(4n+1):hover
+{
+	border-left-color: #FF3300;
+}
+
+nav ul li:nth-child(4n+2):hover
+{
+	border-left-color: #FF8000;
+}
+
+nav ul li:nth-child(4n+3):hover
+{
+	border-left-color: #00C6FF;
+}
+
+nav ul li:nth-child(4n+4):hover
+{
+	border-left-color: #AAF200;
+}
+
+nav ul li:last-child
+{
+	height: 100%;
+}
+
+nav ul li:last-child:hover
+{
+	border-left-color: #222222;
+}
+
+nav ul li a
+{
+	display: block;	
+	padding: 10px;
+	text-decoration: none;
+}
+
+/* - Slideshow - */
+
+#slideshow
+{
+	float: right;
+	width: 640px;
+	height: 480px;
+	margin: -10px -10px 0 20px;
+	border-bottom: 3px solid #222222;
+	border-left: 3px solid #222222;
+}
+
+/* - Main Body - */
+
+#mainSection
+{
+	margin: 10px 10px 0 170px;
+}
+
+#mainSection section:nth-child(4n+1)
+{
+	color: #FF3300;
+}
+
+#mainSection section:nth-child(4n+2)
+{
+	color: #FF8000;
+}
+
+#mainSection section:nth-child(4n+3)
+{
+	color: #00C6FF;
+}
+
+#mainSection section:nth-child(4n+4)
+{
+	color: #AAF200;
+}
+
+h2, h3
+{
+	font-weight: 400;
+	margin: 5px 0;	
+}
+
+#mainSection section h2
+{
+	font-size: 2em;
+}
+
+#mainSection section h3
+{
+	font-size: 1.5em;
+}
+
+#mainSection ul
+{
+	color: #CCCCCC;
+	margin-left: 20px;
+}
+
+#mainSection p
+{
+	color: #CCCCCC;
+}
+
+/* - Latest Projects - */
+
+#showcase
+{
+	margin: 10px 0 0 0 !important; /* Note: must override #mainSection ul declaration of margin-left: 20px. */
+	list-style-type: none;
+}
+
+#showcase li
+{
+	display: inline-table;
+	vertical-align: middle;
+	width: 150px;
+	height: 150px;
+	margin: 0 10px 10px 0;
+	box-shadow: 0 0 10px 0 #000000 inset;
+	-webkit-transition: background-color 0.3s;
+	-moz-transition: background-color 0.3s;
+}
+
+#showcase li:nth-child(4n+1):hover
+{
+	background-color: rgba(255,51,0,0.1);
+}
+
+#showcase li:nth-child(4n+2):hover
+{
+	background-color: rgba(255, 128, 0, 0.1);
+}
+
+#showcase li:nth-child(4n+3):hover
+{
+	background-color: rgba(0, 198, 255, 0.1);
+}
+
+#showcase li:nth-child(4n+4):hover
+{
+	background-color: rgba(170, 242, 0, 0.1);
+}
+
+#showcase li a
+{
+	display: table-cell;
+	vertical-align: middle;
+	color: #CCCCCC;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* - Footer - */
+
+.push
+{
+	height: 40px;
+	clear: both;
+}
+
+footer
+{
+	display: table;
+	height: 40px;
+	margin: 0 0 0 auto;
+	padding: 0 50px;
+	box-shadow: 0 0 10px 0 #000000 inset;
+	text-align: center;
+}
+
+footer small
+{
+	display: table-cell;
+	vertical-align: middle;	
+	font-size: 0.6em;
+}

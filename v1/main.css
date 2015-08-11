@@ -1,0 +1,171 @@
+/* - Main - */
+
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body
+{
+	background-color: #111111;
+	background-image: url("bg.png");
+	color: #CCCCCC;
+	font-weight: 300;
+}
+
+/* - Link Override - */
+
+a
+{
+	color: inherit;
+}
+
+/* - Header - */
+
+h1
+{
+	color: #00C6FF;
+	font-size: 3em;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 30px;
+	padding: 30px;
+	box-shadow: 0 0 10px 0 #000000 inset;
+}
+
+/* - Sidebar - */
+
+/* -- Nav -- */
+
+aside
+{
+	float: left;
+	width: 150px;
+}
+
+aside nav ul
+{
+	list-style-type: none;
+}
+
+aside nav ul li
+{
+	border-left: 3px solid #222222;
+	-webkit-transition: color 0.5s, border-left-color 0.5s;
+	-moz-transition: color 0.5s, border-left-color 0.5s;
+}
+
+aside nav ul li:hover
+{
+	color: #FFFFFF;
+	border-left-color: #00C6FF;
+}
+
+aside nav ul li a
+{
+	display: block;	
+	padding: 10px;
+	text-decoration: none;
+}
+
+/* - Main Section - */
+
+#mainSection
+{
+	margin: 10px 10px 5em 160px;	
+}
+
+#mainSection h2, #mainSection h3
+{
+	color: #00C6FF;
+	font-style: italic;
+	font-weight: 400;
+	margin: 5px 0;
+}
+
+#mainSection h2
+{
+	font-size: 2em;
+}
+
+#mainSection h3
+{
+	font-size: 1.5em;
+}
+
+#mainSection ul
+{
+	margin-left: 20px;
+}
+
+/* -- Slideshow -- */
+
+#slideshow
+{
+	width: 320px;
+	height: 240px;
+	margin-left: 10px;
+	border: 1px solid #00C6FF;
+	float: right;
+}
+
+#slideshow img
+{
+	width: 320px;
+	height: 240px;
+}
+
+/* -- Latest Projects -- */
+
+#showcase
+{
+	margin: 10px 0 0 0 !important; /* Note: must override #mainSection ul declaration of margin-left: 20px. */
+	list-style-type: none;	
+}
+
+#showcase li
+{
+	display: inline-table;
+	vertical-align: middle;
+	width: 150px;
+	height: 150px;
+	margin: 0 10px 10px 0;
+	box-shadow: 0 0 10px 0 #000000 inset;
+	-webkit-transition: background-color 0.3s;
+	-moz-transition: background-color 0.3s;
+}
+
+#showcase li:hover
+{
+	background-color: rgba(0, 198, 255, 0.1);
+}
+
+#showcase li a
+{
+	display: table-cell;
+	vertical-align: middle;
+	color: #CCCCCC;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* - Footer - */
+
+footer
+{
+	background-color: inherit;
+	background-image: inherit;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	box-shadow: 0 0 10px 0 #000000;
+	position: fixed;
+	bottom: 0;
+}
+
+footer small
+{
+	font-size: 0.7em;
+}
