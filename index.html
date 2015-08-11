@@ -1,189 +1,164 @@
 <!DOCTYPE html>
 
-<html lang="en-us">
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>Home - Justin P. Lubin</title>
-        <!--[if lt IE 9]>
-            <script src="/html5sghv/html5shiv.js"></script>
-        <![endif]-->
-        <link rel="icon" type="image/png" href="images/favicon.png?v=2" />
-        <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,300italic,500,500italic,900' rel='stylesheet' type='text/css'>
-        <link href="css/main.css" rel="stylesheet" type="text/css" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script src="js/main.js"></script>
+        <title>Justin P. Lubin</title>
+        <link rel="icon" type="image/png" href="img/favicon.png?v=1" />
+        <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,300italic,400,900' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css" />
     </head>
     <body>
-        <header id="siteHeader">
-            <nav id = "siteHeaderNav">
-                <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#showcase">Showcase</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
-                </ul>
-            </nav>
-            <div id = "siteHeaderMainText" class="verticalOuter">
-                <div class="verticalInner">
-                    <h1>Hi, I'm Justin!</h1>
-                    <p>I'm a high schooler who loves to code and play the piano.</p>
+        <header>
+            <div id="header-left">
+                <img src="img/jpl_square.jpg" />
+            </div>
+            <div id="header-right">
+                <div id="header-right-inner">
+                    <h1>Justin P. Lubin : : Portfolio</h1>
+                    <p>Hi, I'm Justin. I strive for beauty in all my works. Take a look at a few of my projects!</p>
+                    <p>For more, please check out my <a href="https://github.com/jlubi333/">GitHub</a>. Contact me at <a href="mailto:jlubi333@gmail.com">jlubi333@gmail.com</a>.</p>
                 </div>
             </div>
+            <div class="clear"></div>
         </header>
-
-
-        <nav id="toTop">
-            <a href="#" id="toTopArrow">&#11014;</a>
-            <div id="toTopCircle"></div>
-            <div id="toTopToolTip" class="unselectable">
-                <div class="outerTriangle"></div>
-                <div class="innerTriangle"></div>
-                Back to Top
-            </div>
-        </nav>
-
-        <section id="about" class="mainSection">
-            <aside class="right-aside">
-                <h3>Quick Info</h3>
-                    <dl>
-                        <dt>Name</dt>
-                            <dd>Justin Philip Lubin</dd>
-                        <dt>Email</dt>
-                            <dd>jlubi333 [at] gmail [dot] com</dd>
-                        <dt>GitHub</dt>
-                            <dd><a href="https://github.com/jlubi333/">jlubi333</a></dd>
-                        <dt>Location</dt>
-                            <dd>Sunny South Florida</dd>
-                        <dt>Favorite Programming Languages</dt>
-                            <dd>Haskell, Python, C</dd>
-                        <dt>OS of Choice</dt>
-                            <dd>Ubuntu, Mac OS X</dd>
-                        <dt>Editor of Choice</dt>
-                            <dd>Vim, IntelliJ</dd>
-                    </dl>
-            </aside>
-
-            <h2>About Me</h2>
-            <p>Hello, I am Justin Lubin! I love math, computer science, and playing the piano. As of now, I am a junior in high school. I've loved proramming ever since I was in sixth grade. One of my favorite websites is <a href="http://projecteuler.net" title="Project Euler">Project Euler</a>. Check it out!</p>
-            <p>My favorite programming languages are Haskell, Python, and C. Haskell has a brutal purity that awes/scares me; the source code of a Haskell program looks like a work of art. I also really like Python because it is super easy to prototype code and I believe that the language is designed very nicely. Additionally, I've also looked at Clojure a little bit and it seems nice.</p>
-            <p>Playing the piano is another passion of mine. I started in eighth grade when I was thirteen, so that means I've been playing for about four years. My favorite composers are Chopin, J.S. Bach, and Rachmaninoff.</p>
-            <p>Note that this site's source code is available at <a href="https://bitbucket.org/jlubi333/justin-p.-lubin" title="Bitbucket">Bitbucket</a> free of charge. It's completely open source, so take whatever you want!</p>
-        </section>
-
-        <div class="mainSeparator"></div>
-
-        <section id="skills" class="mainSection">
-            <h2>Skills</h2>
-            <p>I like to code lots of different things; over the years, I've picked up a few skills that have been very useful. Here's a list of my skills that I believe to be relevant. If you're interested in contacting me, check out my <a href="#contact">Contact</a> section.</p>
-            <div class="highlight">
-                <dl>
-                    <dt>Front-End Web Programming</dt>
-                        <dd>HTML, CSS, JavaScript, jQuery, Dart</dd>
-                    <dt>Back-End Web Programming</dt>
-                        <dd>PHP, SQL, Laravel, Django</dd>
-                    <dt>iOS Development</dt>
-                        <dd>Objective-C</dd>
-                    <dt>Android Development</dt>
-                        <dd>Java</dd>
-                    <dt>Educational/Teaching</dt>
-                        <dd>Lisp (Scheme), Python, Java, Haskell</dd>
-                    <dt>High-Performance Code</dt>
-                        <dd>C</dd>
-                    <dt>Graphic Design</dt>
-                        <dd>Photoshop, Illustrator, Premiere Pro</dd>
-                </dl>
-            </div>
-        </section>
-
-        <div class="mainSeparator"></div>
-
-        <!-- Use 3:2 images -->
-        <section id="showcase" class="mainSection">
-            <h2>Showcase</h2>
-            <p>The following showcase of projects represents about three years of playing around with web technologies like HTML, CSS, JavaScript, jQuery, and Dart. The source code for these projects are all available on my <a href="https://bitbucket.org/jlubi333/justin-p.-lubin" title="Bitbucket">Bitbucket</a>. I've had an incredibly fun time creating these projects, so please enjoy!
-            <p>Also, if you are curious about more of my code, please check out my <a href="https://github.com/jlubi333/">GitHub</a>! I typically store all of my non-web code in GitHub, such as my own programming language <a href="https://github.com/jlubi333/Camille">Camille</a>, my linear algebra library <a href="https://github.com/jlubi333/julina">Julina</a>, and my symbolic derivative calculator <a href="https://github.com/jlubi333/Jade">Jade</a>. You can also find my educational game <a href="https://github.com/jlubi333/bin-hex">Bin::Hex</a> there, which was inspired by the <a href="http://people.sinclair.edu/nickreeder/Flash/binHex.htm">Binary-Hex Challenge</a>. Aside from these projects, you will also find smaller projects that I've worked on over the years.</p>
-            <ul id="showcaseContainer">
-                <li>
-                    <a href="http://dev.justinplubin.com/psketch">
-                        <img src="images/psketch.png"/>
-                        <div class="verticalOuter">
-                            <h4 class="verticalInner">Physicist's Sketchpad</h4>
+        <ul id="portfolio">
+            <li class="portfolio-item">
+                <a href="http://binhex.jlub.in">
+                    <img class="primary" src="portfolio-img/bin-hex.png" alt="Bin :: Hex" title="Bin :: Hex" />
+                    <div class="secondary">
+                        <div>
+                            <h2>Bin :: Hex</h2>
+                            <p>Bin :: Hex is a multiplayer educational game that will improve your binary and hexadecimal conversion skills.</p>
                         </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://dev.justinplubin.com/jella">
-                        <img src="images/jella.png"/>
-                        <div class="verticalOuter">
-                            <h4 class="verticalInner">Jella</h4>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://dev.justinplubin.com/jicobot">
-                        <img src="images/jicobot.png"/>
-                        <div class="verticalOuter">
-                            <h4 class="verticalInner">Jicobot</h4>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://dev.justinplubin.com/resistanceCalculator">
-                        <img src="images/resistance_calculator.png"/>
-                        <div class="verticalOuter">
-                            <h4 class="verticalInner">Resistance Calculator</h4>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://dev.justinplubin.com/multipainter">
-                        <img src="images/jpl_painter.png"/>
-                        <div class="verticalOuter">
-                            <h4 class="verticalInner">MultiPainter</h4>
-                        </div>
-                    </a>
-                </li>
-                <!-- <li>
-                    <a href="http://dev.justinplubin.com/platformer">
-                        <img src="images/platformer.png"/>
-                        <div class="verticalOuter">
-                        <h4 class="verticalInner">JPL Platformer (Incomplete)</h4>
                     </div>
-                    </a>
-                </li> -->
-                <li>
-                    <a href="http://dev.justinplubin.com/jplhaiku">
-                        <img src="images/jpl_haiku.png"/>
-                        <div class="verticalOuter">
-                            <h4 class="verticalInner">JPL Haiku</h4>
+                </a>
+            </li>
+            <li class="portfolio-item">
+                <a href="http://nhl.jlub.in">
+                    <img class="primary" src="portfolio-img/jpl-nhl.png" alt="jpl :: NHL" title="jpl :: NHL" />
+                    <div class="secondary">
+                        <div>
+                            <h2>jpl :: NHL</h2>
+                            <p>jpl :: NHL is a simulator for the NHL Draft Lottery.</p>
                         </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://dev.justinplubin.com/clock">
-                        <img src="images/jpl_clock.png"/>
-                        <div class="verticalOuter">
-                            <h4 class="verticalInner">JPL Clock</h4>
+                    </div>
+                </a>
+            </li>
+            <li class="portfolio-item">
+                <a href="http://dev.justinplubin.com/jella">
+                    <img class="primary" src="portfolio-img/jella.png" alt="Jella" title="Jella" />
+                    <div class="secondary">
+                        <div>
+                            <h2>Jella</h2>
+                            <p>Jella is a mathematical modeling system heavily inspired by STELLA (made by isee systems). It is a multi-compartment model simulator.</p>
                         </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://dev.justinplubin.com/roulette">
-                        <img src="images/roulette.png"/>
-                        <div class="verticalOuter">
-                            <h4 class="verticalInner">Homework Roulette</h4>
+                    </div>
+                </a>
+            </li>
+            <li class="portfolio-item">
+                <a href="http://dev.justinplubin.com/jplhaiku">
+                    <img class="primary" src="portfolio-img/jpl-haiku.png" alt="JPL Haiku" title="JPL Haiku" />
+                    <div class="secondary">
+                        <div>
+                            <h2>JPL Haiku</h2>
+                            <p>Need to write a haiku for English class? Look no further.</p>
                         </div>
-                    </a>
-                </li>
-            </ul>
-        </section>
-
-        <div class="mainSeparator"></div>
-
-        <section id="contact" class="mainSection">
-            <h2>Contact Me</h2>
-            <p>The best way to contact me is by email: <em>jlubi333 [at] gmail [dot] com</em></p>
-            <p>(email mangled to halt spambots in their effort to spam the world)</p>
-        </section>
+                    </div>
+                </a>
+            </li>
+            <li class="portfolio-item">
+                <a href="http://dev.justinplubin.com/jicobot">
+                    <img class="primary" src="portfolio-img/jicobot.png" alt="Jicobot" title="Jicobot" />
+                    <div class="secondary">
+                        <div>
+                            <h2>Jicobot</h2>
+                            <p>My spin on the famous PicoBot project.</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="portfolio-item">
+                <a href="https://github.com/jlubi333/Camille">
+                    <img class="primary" src="portfolio-img/camille.png" alt="Camille" title="Camille" />
+                    <div class="secondary">
+                        <div>
+                            <h2>Camille</h2>
+                            <p>Camille is an interpreted yet statically-typed programming language implemented in Haskell.</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="portfolio-item">
+                <a href="https://github.com/jlubi333/Julina">
+                    <img class="primary" src="portfolio-img/julina.png" alt="Julina" title="Julina" />
+                    <div class="secondary">
+                        <div>
+                            <h2>Julina</h2>
+                            <p>Julina is a linear algebra library written in C.</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="portfolio-item">
+                <a href="http://dev.justinplubin.com/clock">
+                    <img class="primary" src="portfolio-img/jpl-clock.png" alt="JPL Clock" title="JPL Clock" />
+                    <div class="secondary">
+                        <div>
+                            <h2>JPL Clock</h2>
+                            <p>What time is it anyway?</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="portfolio-item">
+                <a href="http://dev.justinplubin.com/multipainter">
+                    <img class="primary" src="portfolio-img/multi-painter.png" alt="MultiPainter" title="MultiPainter" />
+                    <div class="secondary">
+                        <div>
+                            <h2>MultiPainter</h2>
+                            <p>Have fun painting with your friends!</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="portfolio-item">
+                <a href="http://dev.justinplubin.com/resistanceCalculator">
+                    <img class="primary" src="portfolio-img/resistance-calculator.png" alt="Resistance Calculator" title="Resistance Calculator" />
+                    <div class="secondary">
+                        <div>
+                            <h2>Resistance Calculator</h2>
+                            <p>Ohm's Law is great&hellip; unless you need to calculate the resistance of a large circuit by hand.</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="portfolio-item">
+                <a href="http://dev.justinplubin.com/psketch">
+                    <img class="primary" src="portfolio-img/psketch.png" alt="Physicist&rsquo;s Sketchpad" title="Physicist&rsquo;s Sketchpad" />
+                    <div class="secondary">
+                        <div>
+                            <h2>Physicist&rsquo;s Sketchpad</h2>
+                            <p>Physicist&rsquo;s Sketchpad will solve any related rates problem dealing with triangles by using the arcane magic known as calculus.</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="portfolio-item">
+                <a href="http://dev.justinplubin.com/roulette">
+                    <img class="primary" src="portfolio-img/homework-roulette.png" alt="Homework Roulette" title="Homework Roulette" />
+                    <div class="secondary">
+                        <div>
+                            <h2>Homework Roulette</h2>
+                            <p>Teachers, why not add a bit of risk to your homework collection routine?</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <footer id="main-footer">
+            <p><small>Copyright &copy; 2015 Justin Philip Lubin.</small></p>
+            <p><small>The source code for this site is freely available on <a href="https://bitbucket.org/jlubi333/justin-p.-lubin">BitBucket</a>.</small></p>
+        </footer>
     </body>
 </html>
