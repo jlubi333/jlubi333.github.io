@@ -134,6 +134,16 @@
         box-shadow: 0 0 10px 0 #000000;
     }
 
+        .portfolio-item.dummy {
+            visibility: hidden;
+        }
+
+        @media(max-width: 1000px) {
+            .portfolio-item.dummy {
+                display: none;
+            }
+        }
+
     .portfolio-item a {
         display: block;
         width: 100%;
