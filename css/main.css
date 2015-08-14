@@ -45,6 +45,10 @@
 
     header img {
         border-radius: 50%;
+        /* For IE 8 */
+        width: 20%;
+        height: 20%;
+        /* For the rest of the browsers */
         width: 20vw;
         height: 20vw;
     }
